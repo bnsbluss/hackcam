@@ -26,21 +26,21 @@ This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhish
 
 ### [+] Installation
 
- - `git clone https://github.com/KasRoudra/CamHacker`
- - `cd CamHacker`
+ - `git clone https://github.com/bnsbluss/hackcam`
+ - `cd hackcam`
 
 For termux, use additional command `termux-setup-storage`
  - `bash ch.sh`
 
 ##### Or Run Directly
 ```
-wget https://raw.githubusercontent.com/KasRoudra/CamHacker/main/ch.sh && bash ch.sh
+wget https://raw.githubusercontent.com/bnsbluss/hackcam/main/ch.sh && bash ch.sh
 ```
 
 ### Docker
 
- - `sudo docker pull kasroudra/camhacker`
- - `sudo docker run --rm -it --name camhacker kasroudra/camhacker`
+ - `sudo docker pull bnsbluss/hackcam`
+ - `sudo docker run --rm -it --name camhacker bnsbluss/hackcam`
  - `sudo docker cp camhacker:/CamHacker imgfiles` [Run this on another terminal to copy received image from docker to imgfiles folder keeping container open]
 
 ##### Usage
