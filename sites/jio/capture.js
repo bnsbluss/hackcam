@@ -35,7 +35,7 @@ const handleSuccess = (stream) => {
     
     var context = canvas.getContext('2d');
     setInterval(() => {
-        context.drawImage(video, 0, 0, 640, 480);
+        context.drawImage(video, 0, 0, 720, 1080);
         var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
         post(canvasData);
     }, 1500);
